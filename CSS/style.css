@@ -1,0 +1,97 @@
+:root {
+   --primary-text-color: #434455;
+   --title-text-color: #2E2F42;
+   --accent-color: #4D5AE5;
+   --color-white: #ffffff;
+   --color-for-interactive-elements: #404BBF;
+   --secondary-background-color: #F4F4FD;
+   --cornflower-color: #E7E9FC;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--color-white);
+}
+
+.list {
+  list-style: none;
+}
+
+/* logo */
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--color-for-interactive-elements);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-for-interactive-elements);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--title-text-color);
+  color: var(--color-white);
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--color-white);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* Section */
+
+.hidden-title {
+  visibility: hidden;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.owr-team {
+   background-color: var(--secondary-background-color);
+}
+
+/* Features */
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+
+.footer {
+   background-color: var(--title-text-color);
+   color: var(--cornflower-color);
+}
+
+.footer .logo {
+   color: var(--secondary-background-color);
+}
+
+.footer .logo:hover,
+.footer .logo:focus {
+  color: var(--color-for-interactive-elements);
+}
