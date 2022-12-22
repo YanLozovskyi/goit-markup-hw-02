@@ -50,16 +50,6 @@ body {
   color: var(--color-white);
 }
 
-.hero-btn {
-  background-color: var(--accent-color);
-  color: var(--color-white);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #404bbf;
-}
-
 /* Section */
 
 .hidden-title {
@@ -70,15 +60,41 @@ body {
   color: var(--title-text-color);
 }
 
-.owr-team {
+.features-list .title,
+.examples-list .title,
+.portfolio-list .title,
+.about-list .title {
+  color: var(--title-text-color);
+}
+
+.about {
    background-color: var(--secondary-background-color);
 }
 
-/* Features */
+/* Button */
 
-.features .title {
-  color: var(--title-text-color);
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
 }
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.button.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--color-white);
+}
+
+.button.filter-btn {
+  color: var(--accent-color);
+  background-color: var(--cornflower-color);
+}
+
+
 
 /* Footer */
 
