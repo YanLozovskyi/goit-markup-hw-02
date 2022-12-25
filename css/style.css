@@ -11,6 +11,10 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--color-white);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -21,6 +25,11 @@ body {
 
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway, cursive;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
 }
 
 .logo-color {
@@ -36,6 +45,9 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .site-nav .link:hover,
@@ -43,11 +55,22 @@ body {
   color: var(--color-for-interactive-elements);
 }
 
+/* Adress */
+
+.adress .link {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 /* Hero */
 
 .hero {
   background-color: var(--title-text-color);
   color: var(--color-white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 }
 
 /* Section */
@@ -56,15 +79,22 @@ body {
   visibility: hidden;
 }
 
-.section-title {
-  color: var(--title-text-color);
-}
-
 .features-list .title,
 .examples-list .title,
 .portfolio-list .title,
 .about-list .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 
 .about {
@@ -76,6 +106,10 @@ body {
 .button {
   color: var(--primary-text-color);
   background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button.hero-btn {
