@@ -21,6 +21,10 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* logo */
 
 .logo {
@@ -46,8 +50,6 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .site-nav .link:hover,
@@ -62,12 +64,19 @@ body {
   font-style: normal;
 }
 
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+
 /* Hero */
 
 .hero {
   background-color: var(--title-text-color);
+}
+
+.hero-title {
   color: var(--color-white);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -79,10 +88,7 @@ body {
   visibility: hidden;
 }
 
-.features-list .title,
-.examples-list .title,
-.portfolio-list .title,
-.about-list .title {
+.section-subtitle .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -91,10 +97,10 @@ body {
 
 .section-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .about {
@@ -130,7 +136,7 @@ body {
 
 .button.filter-btn:hover,
 .button.filter-btn:focus {
-  background-color: var(--color-for-interactive-elements);
+  background-color: var(--secondary-background-color);
   cursor: pointer;
 }
 
