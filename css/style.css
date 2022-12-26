@@ -58,8 +58,8 @@ body {
 /* Adress */
 
 .adress .link {
-  font-size: 16px;
-  line-height: 1.5;
+  color: var(--primary-text-color);
+  font-style: normal;
 }
 
 /* Hero */
